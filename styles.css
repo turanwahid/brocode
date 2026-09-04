@@ -1,0 +1,28 @@
+body>div {
+    text-align: center;
+}
+
+#countLabel {
+    display: block;
+    font-family: Arial, sans-serif;
+    font-size: 10em;
+    font-weight: bold;
+    text-align: center;
+}
+
+.buttons {
+    padding: 10px 20px;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: white;
+    background-color: rgb(207, 58, 58);
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    text-align: center;
+}
+
+.buttons:hover {
+    background-color: rgb(160, 40, 40);
+}
